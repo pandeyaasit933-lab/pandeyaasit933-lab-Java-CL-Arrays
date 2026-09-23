@@ -1,0 +1,55 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ArrayBasicsTest.java",
+      "testCases": [
+        {
+          "methodName": "getLengthTest1",
+          "label": "returns length of array (size 5)",
+          "description": "Verifies that getLengthOfArray returns the correct length when given an array of 5 elements."
+        },
+        {
+          "methodName": "getLengthTest2",
+          "label": "returns length of array (size 3)",
+          "description": "Verifies that getLengthOfArray returns the correct length when given an array of 3 elements."
+        },
+        {
+          "methodName": "getNthElementOfArrayTest1",
+          "label": "gets element at index 2 from array",
+          "description": "Checks that getNthElementOfArray returns the value at index 2 (7) from the array {8,4,7,3,8,5}."
+        },
+        {
+          "methodName": "getNthElementOfArrayTest2",
+          "label": "gets element at index 0 from array",
+          "description": "Checks that getNthElementOfArray returns the first element (5) from the array {5,3,9,1,0} when n is 0."
+        },
+        {
+          "methodName": "getNthElementOfArrayTest3",
+          "label": "gets element at index 2 from small array",
+          "description": "Checks that getNthElementOfArray returns the value at index 2 (8) from the array {6,4,8}."
+        },
+        {
+          "methodName": "setNthElementOfArrayTest1",
+          "label": "sets element at index 2 in array",
+          "description": "Verifies that setNthElementOfArray updates the value at index 2 to 5 in the array {9,3,7,3,6}."
+        },
+        {
+          "methodName": "setNthElementOfArrayTest2",
+          "label": "sets element at index 0 in array",
+          "description": "Verifies that setNthElementOfArray updates the value at index 0 to 2 in the array {9,3,4}."
+        },
+        {
+          "methodName": "returnNewArraySizeNTest1",
+          "label": "creates new array of given size (5)",
+          "description": "Ensures that returnNewArraySizeN(5) returns a non-null array whose length is exactly 5."
+        },
+        {
+          "methodName": "returnNewArraySizeNTest2",
+          "label": "creates new array of given size (2)",
+          "description": "Ensures that returnNewArraySizeN(2) returns a non-null array whose length is exactly 2."
+        }
+      ]
+    }
+  ]
+}
